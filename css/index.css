@@ -214,8 +214,8 @@ figcaption
 		width: 40%;
 	}
 
-	.secondary, .tertiary 
+	.secondary 
     {
-		width: 30%;
+		width: 50%;
 	}
 }
