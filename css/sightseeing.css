@@ -1,0 +1,214 @@
+/*--General styling for whole page--*/
+* 
+{
+	box-sizing: border-box;
+}
+
+body 
+{
+    font-family: Optima, 'Century Gothic', Times, serif;
+    line-height: 1.6;
+	color: #3a3a3a;
+}
+
+p {
+	font-size: .95em;
+	margin-bottom: 1.8em;
+}
+
+h2, h3, a 
+{
+    color: rgb(0,88,138);
+}
+
+h2, h3, h4 
+{
+	margin-top: 0;
+}
+
+h4 
+{
+	margin-bottom: .4em;
+}
+
+a 
+{
+	text-decoration: none;
+}
+
+img 
+{
+	max-width: 100%;
+}
+
+/*--Main header section--*/
+.name 
+{
+	font-size: 1.25em;
+	margin: 0;
+}
+
+.main-nav 
+{
+	margin-top: 5px;
+}
+
+.name a, .main-nav a 
+{
+    display: block;
+    text-align: center;
+    padding: 10px 15px;
+}
+	
+.main-nav a 
+{
+    font-size: .95em;
+    color: #3acec2;
+    text-transform: uppercase;
+}
+
+.main-nav a:hover 
+{
+    color: #093a58;
+}
+
+.main-header 
+{
+	padding-top: .5em;
+	padding-bottom: .5em;
+}
+
+.banner, .main-footer 
+{
+	text-align: center;
+}
+
+.banner {
+	color: #fff;
+	background: rgb(33, 158, 236);
+	padding: 3.2em 0;
+	margin-bottom: 60px;
+}
+
+.main-footer {
+	position: relative;
+	background: #d9e4ea;
+	padding: 2em 0;
+	margin-top: 100px;
+}
+
+/* ---- Page Elements ---- */
+
+.logo {
+	width: 190px;
+}
+
+.headline {
+	margin-bottom: 0;
+}
+
+/* ================================= 
+  Media Queries
+==================================== */
+
+@media (min-width: 769px) 
+{
+	body 
+    {
+		padding-top: 68px;
+	}
+
+	.main-header 
+    {
+		position: fixed;
+		background: #fff;
+		box-shadow: 0 1px 4px rgba(0,0,0,.4);
+		width: 100%;
+		top: 0;
+		z-index: 1000;
+	}
+
+	.name 
+    {
+		float: left;
+	}
+
+	.main-nav 
+    {
+		float: right;
+	}
+
+	.main-nav li 
+    {
+		display: inline-block;
+		margin-left: 15px;
+	}
+
+	.tagline {
+		font-size: 1.4em;
+	}
+}
+
+/*-- Image Card Styling --*/
+
+.category-name {
+    font-family: sans-serif;
+    width: -webkit-fill-available;
+    text-align: center;
+    font-size: 40px;
+}
+
+.card-category-1 
+{
+	font-family: sans-serif;
+    margin-bottom: 45px;
+    text-align: center;
+}
+
+.card-category-1 div 
+{
+	display:inline-block;
+}
+
+.card-category-1 > div 
+{
+	margin: 10px 5px;
+	text-align: left;
+}
+
+.basic-card 
+{
+	width:300px;
+	position: relative;
+	
+	-webkit-box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.3);
+	-moz-box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.3);
+	-o-box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.3);
+	box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.3);
+}
+
+.basic-card .card-content 
+{
+	padding: 30px;
+}
+
+.basic-card .card-title 
+{
+	font-size: 25px;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.basic-card .card-text 
+{
+	line-height: 1.6;
+}
+
+.basic-card-aqua 
+{
+	background-image: linear-gradient(to bottom right, #00bfad, #99a3d4);
+}
+
+.basic-card-aqua .card-content 
+{
+	color: #fff;
+}
