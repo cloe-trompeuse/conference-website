@@ -105,7 +105,7 @@ figure
 .main-footer {
 	background: #d9e4ea;
 	padding: 2em 0;
-	margin-top: 30px;
+	margin-top: 500px;
 }
 
 /* ---- Page Elements ---- */
@@ -200,9 +200,11 @@ figure
 	}
 }
 
-.tertiary 
+/*--Tertiary div styling--*/
+
+/* .tertiary 
 {
-	background-color: rgb(209, 209, 209);
+	background-color: rgb(167,169,172);
 }
 
 .tertiary-col 
@@ -211,7 +213,7 @@ figure
 	display:inline-block;
 	padding: 1rem 1rem;
 	vertical-align: middle;
-}
+} */
 
 .sub-img 
 {
@@ -224,10 +226,82 @@ figure
 	text-align: center;
 }
 
-.sponsors 
+/*--Hotel vignette styling--*/
+
+#wrapper 
 {
-	width: 33%;
-	display:inline-block;
-	padding: 1rem 1rem;
-	vertical-align: middle;
+    max-width: 1250px;
+    margin: 0 auto;
+    padding: 0 5%;
+}
+  
+#wrapper a 
+{
+    text-decoration: none;
+    color: #6ab47b;
+}
+
+#wrapper img 
+{
+    max-width: 100%;
+}
+
+#gallery 
+{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+  
+#gallery li 
+{
+    float: left;
+    width: 45%;
+    margin: 2.5%;
+    background-color: #f5f5f5;
+    color: #bdc3c7;
+}
+  
+#gallery li a p 
+{
+    margin: 0;
+    padding: 5%;
+    font-size: 0.75em;
+    color: #8f9091
+}
+
+#gallery li a p:hover 
+{
+	color:#3a3a3a;
+	font-size: 1rem;
+}
+
+#gallery li:hover 
+{
+	background-color: #3acec2;
+}
+
+@media screen and (min-width: 480px) 
+{
+    #primary 
+    {
+        width: 50%;
+        float: left;
+    }
+      
+    #secondary 
+    {
+        width: 40%;
+        float: right;
+    }
+
+    #gallery li 
+    {
+        width: 28.3333%;
+    }
+      
+    #gallery li:nth-child(4n) 
+    {
+        clear: left;
+    }
 }
